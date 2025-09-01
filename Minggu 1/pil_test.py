@@ -1,6 +1,6 @@
 from PIL import Image
 
-image_path = r"Minggu 1/img/Logo_Polije.png" 
+image_path = r"Minggu 1/img/uno.png" 
 img = Image.open(image_path)
 img.show()
 

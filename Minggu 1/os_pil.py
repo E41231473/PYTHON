@@ -11,5 +11,5 @@ for filename in os.listdir(directory):
     if filename.endswith(".jpg") or filename.endswith(".png"):
         img_path = os.path.join(directory, filename)
         img = Image.open(img_path)
-        img_resized = img.resize((200, 200))  # Ubah ukuran menjadi 200x200
+        img_resized = img.resize((200, 200))
         img_resized.save(os.path.join(output_directory, filename))
